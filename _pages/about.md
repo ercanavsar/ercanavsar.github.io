@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ercan_pic.jpg
   image_circular: true # crops the image to make it circular
   #more_info: <p>DTU Aqua</p> <p>Technical University of Denmark</p> <p>Kongens Lyngby, Denmark</p>
 

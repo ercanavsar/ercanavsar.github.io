@@ -4,7 +4,7 @@ permalink: /supervision/
 title: supervision
 description: MSc and PhD students 
 nav: true
-nav_order: 6
+nav_order: 4
 calendar: true
 ---
 

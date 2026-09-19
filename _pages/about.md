@@ -2,9 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am a researcher at [DTU Aqua](https://www.aqua.dtu.dk/), the National Institute
-of Aquatic Resources at the [Technical University of Denmark](https://www.dtu.dk/),
-where I develop computer vision methods for fisheries and marine applications.
+subtitle: I am a researcher at [DTU Aqua](https://www.aqua.dtu.dk/), the National Institute of Aquatic Resources at the [Technical University of Denmark](https://www.dtu.dk/), where I develop computer vision methods for fisheries and marine applications.
 
 profile:
   align: right

@@ -9,10 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Technical University of Denmark</p>
-    <p>National Institure of Aquatic Resources</p>
     <p>DTU Aqua</p>
-    <p>Henrik Dams Allé, Building 201, DK-2800 Kongens Lyngby, Copenhagen, Denmark</p>
+    <p>Technical University of Denmark</p>
+    <p>Kongens Lyngby, Denmark</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /projects/
-title: Research Projects
+title: projects
 description: Selected projects I have worked on.
 nav: true
 nav_order: 1
@@ -30,6 +30,17 @@ nav_order: 1
   color: var(--global-text-color-light);
   margin-bottom: 0.6rem;
 }
+.project-item > a img {
+  width: 260px;
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+.project-item > a {
+  flex-shrink: 0;
+  line-height: 0;
+}
+
 .project-meta span::after { content: " · "; }
 .project-meta span:last-child::after { content: ""; }
 @media (max-width: 700px) {
@@ -39,9 +50,11 @@ nav_order: 1
 </style>
 
 <div class="project-item">
-  <img src="{{ '/assets/img/projects/OptiFish-logo-hor-1.png' | relative_url }}" alt="">
+  <a href="https://optifish.eu/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/projects/OptiFish-logo-hor-1.png' | relative_url }}" alt="">
+  </a>
   <div>
-    <h3>Optimisation of digital catch monitoring & reporting in the European Fisheries</h3>
+    <h3>OptiFish: Optimisation of digital catch monitoring & reporting in the European Fisheries</h3>
     <div class="project-meta">
       <span>Horizon Europe</span>
       <span>2024–2028</span>

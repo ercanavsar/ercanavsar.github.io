@@ -26,15 +26,19 @@ latest_posts:
 ---
 
 <style>
-.navbar-brand.social a,
-.navbar-brand.social a i {
+#navbar .navbar-brand.social a,
+#navbar .navbar-brand.social a i,
+#navbar .navbar-brand.social a i::before {
   color: var(--global-text-color-light) !important;
   transition: color 0.2s ease;
 }
-.navbar-brand.social a:hover,
-.navbar-brand.social a:hover i {
+
+#navbar .navbar-brand.social a:hover,
+#navbar .navbar-brand.social a:hover i,
+#navbar .navbar-brand.social a:hover i::before {
   color: var(--global-theme-color) !important;
 }
+  
 .navbar-brand.social img {
   opacity: 0.55;
   transition: opacity 0.2s ease;

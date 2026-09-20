@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /projects/
-title: projects
-description: Research projects I have worked on.
+title: Research Projects
+description: Selected projects I have worked on.
 nav: true
 nav_order: 1
 ---
@@ -39,20 +39,21 @@ nav_order: 1
 </style>
 
 <div class="project-item">
-  <img src="{{ '/assets/img/projects/proje1.jpg' | relative_url }}" alt="">
+  <img src="{{ '/assets/img/projects/OptiFish-logo-hor-1.png' | relative_url }}" alt="">
   <div>
-    <h3>Projenin tam adı</h3>
+    <h3>Optimisation of digital catch monitoring & reporting in the European Fisheries</h3>
     <div class="project-meta">
       <span>Horizon Europe</span>
-      <span>2024–2027</span>
-      <span>Role: Postdoc</span>
+      <span>2024–2028</span>
+      <span>budget: € 5,438,952.50</span>
+      <!-- <span>Role: Researcher </span> -->
     </div>
-    <p>İki üç cümlelik amaç ve kapsam. Problem ne, sen ne yapıyorsun,
-    çıktı ne olacak.</p>
-    <p><a href="https://proje-sitesi.eu/">Project website</a></p>
+    <p>OptiFish aims to develop, test, and validate technologies that will improve onboard monitoring of catch volumes and fish health, enabling fishers to improve the sustainability of their operations, and better meet control requirements.</p>
+    <p>The DTU team is repsonsible for developing computer vision models to detect, count, and length measure the caught fish in electronic monitoring footage for pelagic pumping and sorting table case studies. We are also involved inthe various steps of the development pipeline including data collection and dataset generation. </p>
+    <p><a href="https://optifish.eu/">Project website</a></p>
   </div>
 </div>
 
 <div class="project-item">
-  ...ikinci proje aynı kalıpla...
+  ...under construction...
 </div>

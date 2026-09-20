@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+!! The website is under construction at the moment. Some of the pages/information may be missing or incorrect.
 
 I am a researcher at [DTU Aqua](https://www.aqua.dtu.dk/), the National Institute of Aquatic Resources at the [Technical University of Denmark](https://www.dtu.dk/), where I develop computer vision methods for fisheries and marine applications.
 

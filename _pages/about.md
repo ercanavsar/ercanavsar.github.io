@@ -23,9 +23,42 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
-
-
 ---
+
+<style>
+.navbar-brand.social a,
+.navbar-brand.social a i {
+  color: var(--global-text-color-light) !important;
+  transition: color 0.2s ease;
+}
+.navbar-brand.social a:hover,
+.navbar-brand.social a:hover i {
+  color: var(--global-theme-color) !important;
+}
+.navbar-brand.social img {
+  opacity: 0.55;
+  transition: opacity 0.2s ease;
+}
+.navbar-brand.social img:hover {
+  opacity: 1;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const map = {
+    "Github username": "GitHub",
+    "Linkedin username": "LinkedIn",
+    "Scholar userid": "Google Scholar",
+    "Orcid id": "ORCID",
+  };
+  document.querySelectorAll(".navbar-brand.social a[title]").forEach(function (a) {
+    if (map[a.title]) a.title = map[a.title];
+  });
+});
+</script>
+
+
 I am a researcher at [DTU Aqua](https://www.aqua.dtu.dk/), the National Institute of Aquatic Resources at the [Technical University of Denmark](https://www.dtu.dk/), where I develop computer vision methods for fisheries and marine applications.
 
 My work focuses on turning underwater and on-board imagery into usable data:

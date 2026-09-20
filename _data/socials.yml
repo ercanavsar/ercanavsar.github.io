@@ -9,7 +9,7 @@ scholar_userid: YQhToYMAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: DTU_Logo_Corporate_Red_RGB.png # can be png, svg, jpg
+  logo: https://github.com/ercanavsar/ercanavsar.github.io/blob/main/assets/img/DTU_Logo_Corporate_Red_RGB.png # can be png, svg, jpg
   title: DTU profile
   url: https://orbit.dtu.dk/en/persons/ercan-avsar/
 
